@@ -1,0 +1,22 @@
+{
+  "name": "samogray.github.io",
+  "version": "1.0.0",
+  "description": "personal site Samogray Oleksandr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samogray/samogray.github.io.git"
+  },
+  "keywords": [
+    "samogray"
+  ],
+  "author": "Samogray Oleksandr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samogray/samogray.github.io/issues"
+  },
+  "homepage": "https://github.com/samogray/samogray.github.io#readme"
+}
