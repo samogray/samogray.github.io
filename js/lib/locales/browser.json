@@ -1,10 +1,9 @@
 {
   "locales": [
     "en",
-    "fr",
     "ru"
   ],
-  "default_locale": "en",
+  "default_locale": "ru",
   "resources": [
     "./{{locale}}.l20n"
   ]
