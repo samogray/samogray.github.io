@@ -1,7 +1,8 @@
 {
   "locales": [
     "en",
-    "ru"
+    "ru",
+    "ua"
   ],
   "default_locale": "ru",
   "resources": [
