@@ -14,6 +14,7 @@
 	<link rel="shortcut icon" href="like.png"/>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css" />
+	<link rel="stylesheet" href="css/responsiveslides.css" />
 	<link rel="stylesheet" href="css/style_min.css" />
 	<link rel="localization" href="js/lib/locales/browser.json">
 	<script src="js/lib/l20n.min.js"></script>
@@ -25,20 +26,18 @@
 		<label for="ualang" class="active-lang">UA<input type="radio" name="lang" value="ua" id="ualang"></label>
 		<label for="enlang">EN<input type="radio" name="lang" value="en" id="enlang"></label>
 	</form>
-
 	<div class="wrap">
 		<div class="photo"></div>
 		<div class="banner">
 			<div class="text"></div>
 			<div class="cursor"></div>
-			<!--<div class="soc">
-				<a href="#"><i class="fa fa-facebook-square"></i></a>
-				<a href="#"><i class="fa fa-linkedin-square"></i></a>
-				<a href="#"><i class="fa fa-instagram"></i></a>
-			</div>-->
-			<p data-l10n-id="home">Hello</p>
-
-			<div class="my-tech">Більше інформації нижче...</div>
+			<div class="soc">
+				<h4 data-l10n-id="test">Контакти</h4>
+				<div class="skype cont"><i class="fa fa-skype"></i>samogray</div>
+				<div class="email cont"><i class="fa fa-envelope-o"></i>websamogray@gmail.com</div>
+				<a href="#" class="cont"><i class="fa fa-facebook-square"></i></a>
+			</div>
+			<div data-l10n-id="info" class="my-tech">Більше інформації нижче...</div>
 		</div>
 	</div>
 	<div id="down">
@@ -46,7 +45,7 @@
 	</div>
 </div>
 <div class="two">
-	<h1 class="work" id="dest">Використовую в своїх проектах:</h1>
+	<h1 data-l10n-id="teh" class="work" id="dest">використовую в своїх проектах:</h1>
 	<div class="left teach">
 		<span class="js">{.js}</span>
 		<p class="desc">
@@ -55,11 +54,11 @@
 	</div>
 	<div class="left teach ">
 		<img src="img/grunt.svg" alt="grunt" class="grunt">
-		<p class="desc">Автоматизацію</p>
+		<p data-l10n-id="grunt" class="desc">Автоматизацію</p>
 	</div>
 	<div class="center teach">
 		<span class="l20n">&lt;L20N&gt;</span>
-		<p class="desc">
+		<p data-l10n-id="local" class="desc">
 			Локалізацію
 		</p>
 	</div>
@@ -79,24 +78,26 @@
 			GIT
 		</p>
 	</div>
-	<h1 class="work">Мої останні проекти</h1>
+	<h1 class="work" data-l10n-id="projeckt">Мої останні проекти</h1>
 	<div class="slider-container ">
 		<div class="slider">
-			<div class="item active">
-				<div class="wrap-title">
-					<h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Consequuntur, sequi?</h3>
-				</div>
-				<a  href="http://www.natalievents.com" target="_blank"><img src="img/IMG1.jpg" alt="www.natalievents.com" ></a>
+			<div class="shadow shleft">
 			</div>
-			<div class="item">
-				<div class="wrap-title">
-					<h3 class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, sequi?</h3>
-				</div>
-				<a  href="http://www.natalievents.com/blog" target="_blank"><img src="img/IMG2.jpg" alt="blog natali events"></a>
+			<div class="shadow shright">
 			</div>
+			<ul class="rslides">
+				<li>
+					<img src="img/IMG1.jpg" alt="www.natalievents.com">
+					<a href="#0" class="tit" data-l10n-id="slide1">Розробка веб сайту  natalievents.com</a>
+				</li>
+				<li>
+					<img src="img/IMG2.jpg" alt="www.natalievents.com/blog/">
+					<a href="#0" class="tit" data-l10n-id="slide2">Блог Natali Events на WordPress</a>
+				</li>
+			</ul>
+			<a href="#" class="rslides_nav rslides1_nav prev"><i class="fa fa-chevron-left fa-2x"></i></a>
+			<a href="#" class="rslides_nav rslides1_nav next"><i class="fa fa-chevron-right fa-2x"></i></a>
 		</div>
-		<a href="#0" id="prev"><i class="fa fa-chevron-left"></i></a>
-		<a href="#0" id="next"><i class="fa fa-chevron-right"></i></a>
 	</div>
 </div>
 
@@ -109,7 +110,7 @@
 	<script src="js/lib/respond.min.js"></script>
 	<script src="js/lib/jquery-1.11.3.min.js"></script>
 	<script src="js/lib/jquery.viewportchecker.min.js"></script>
-	<script src="js/lib/jquery.viewportchecker.min.js"></script>
+	<script src="js/lib/responsiveslides.min.js"></script>
 	<script src="js/common.min.js"></script>
 
 

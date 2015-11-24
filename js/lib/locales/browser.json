@@ -4,7 +4,7 @@
     "ru",
     "ua"
   ],
-  "default_locale": "ru",
+  "default_locale": "ua",
   "resources": [
     "./{{locale}}.l20n"
   ]
