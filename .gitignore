@@ -1,15 +1,12 @@
 .idea
 .vscode
 node_modules/**
-.dir-locals.el
 dist
 dll
 coverage
-.nyc_output
 **/.DS_Store
 npm-debug.log
 yarn.lock
 mochawesome-report
-block.http.localhost.3000
 build
 .vscode
